@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-@keyframes loading {
+@keyframes rotation {
 
   0% {
     transform: rotate(0);
@@ -38,7 +38,7 @@ h1 {
 }
 
 .images.rot {
-  animation: loading 9s linear infinite;
+  animation: rotation 10s linear infinite;
 }
 
 .images-container {
